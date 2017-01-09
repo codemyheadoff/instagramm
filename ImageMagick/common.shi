@@ -1,0 +1,22 @@
+# Test environment
+top_srcdir='/home/ubuntu/workspace/instagramm/ImageMagick'
+top_builddir='/home/ubuntu/workspace/instagramm/ImageMagick'
+
+set -a
+COMPARE="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick compare"
+COMPOSITE="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick composite"
+CONJURE="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick conjure"
+CONVERT="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick convert"
+DISPLAY="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick display"
+IDENTIFY="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick identify"
+MAGICK="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick"
+MONTAGE="/home/ubuntu/workspace/instagramm/ImageMagick/utilities/magick montage"
+VALIDATE="/home/ubuntu/workspace/instagramm/ImageMagick/tests/validate"
+DRAWTEST="/home/ubuntu/workspace/instagramm/ImageMagick/tests/drawtest"
+WANDTEST="/home/ubuntu/workspace/instagramm/ImageMagick/tests/wandtest"
+LD_LIBRARY_PATH="/home/ubuntu/workspace/instagramm/ImageMagick/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/ubuntu/workspace/instagramm/ImageMagick/coders"
+MAGICK_CONFIGURE_PATH="/home/ubuntu/workspace/instagramm/ImageMagick/config:/home/ubuntu/workspace/instagramm/ImageMagick/config"
+MAGICK_FILTER_MODULE_PATH="/home/ubuntu/workspace/instagramm/ImageMagick/filters"
+PATH="/home/ubuntu/workspace/instagramm/ImageMagick/utilities:/home/ubuntu/workspace/instagramm/ImageMagick/tests:${PATH}"
+set +a
